@@ -37,7 +37,6 @@
 		{ 0xB3, 0x1B, 0x95, 0x0F, 0x1A, 0x8F, 0xA4, 0x9B} }
 
 /* The function IDs implemented in this TA */
-#define TA_WASM3_TEE_CMD_INC_VALUE		0
-#define TA_WASM3_TEE_CMD_DEC_VALUE		1
+#define TA_COMMAND_RUN_WASM        0
 
 #endif /*TA_WASM3_TEE_H*/
